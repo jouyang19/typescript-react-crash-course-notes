@@ -8,6 +8,8 @@ These lesson notes assumes that the reader has a basic understanding of React.
 
 ### Basic Props
 
+---
+
 - To type up props, you will need to first create a `type` for the props of a component. Types are more flexible than `interface`'s so we will stick with types for now.
 - `?` makes a specific prop optional. In this example, `messageCount` is an optional prop to pass in.
 - In the parenthesis for the component, be sure to add in the new Props type for props.
@@ -44,6 +46,8 @@ Now we can return the Greet component as JSX with the props passed in as so:
 Each prop will be type checked. So in this case, `name` has to be a `string`, `messageCount` a `number`, and `isLoggedIn` as a `boolean`.
 
 ### Passing Objects as a Prop
+
+---
 
 We need to create a type for the props passed into the following `Person` component:
 
@@ -89,6 +93,8 @@ So then we can pass in props like so:
 And this will ensure that `name` is an object that has a `first` name that is a `string` and a `last` name that is a `string`
 
 ### Passing an Array of Objects as Props
+
+---
 
 To define the types of an array of objects for the follow component:
 
@@ -151,6 +157,8 @@ const nameList = [
 
 ### Typing Specific Strings as Types for a Prop
 
+---
+
 For the following component, what if we wanted to only pass in three conditional values and no other string?
 
 ```jsx
@@ -194,6 +202,8 @@ We can use the component like so:
 In our example, the `status` prop will only accept three values: `success`, `loading`, and `error`.
 
 ### Passing Child Components as Props
+
+---
 
 How do we define types for a React component that is passed in as a child to another component? Let's take a look at this sample parent component:
 
@@ -239,6 +249,8 @@ And this will be displayed in the browser like so:
 Good job so far! Now we will move on to a more trikier subject: Events
 
 ### Event Typing as Props
+
+---
 
 We will now see how to add types to some of the most common event handling.
 
@@ -327,6 +339,8 @@ and return as JSX the `Input` component like so:
 ```
 
 ### Styles Typing as Props
+
+---
 
 Normally one would style CSS in JSX like so:
 
