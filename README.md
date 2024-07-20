@@ -1,6 +1,6 @@
 # TypeScript with React Tutorial
 
-Lesson notes pulled from [Codevolution's React TypeScript Tutorials Playlist on Youtube](https://www.youtube.com/playlist?list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK).
+Lesson notes inspired from [Codevolution's React TypeScript Tutorials Playlist on Youtube](https://www.youtube.com/playlist?list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK).
 
 These lesson notes assumes that the reader has a basic understanding of React.
 
@@ -242,9 +242,6 @@ Now, we can encapsulate another React component within the parent component, in 
   </Heading>
 </Nur>
 ```
-
-And this will be displayed in the browser like so:
-![Ayatulnur](./src/assets/Screenshot2.png)
 
 Good job so far! Now we will move on to a more trikier subject: Events
 
